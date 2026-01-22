@@ -7,14 +7,8 @@ st.title("📊 Ученици и оценки – класна анкета")
 if "students" not in st.session_state:
     st.text-input()
   
-st.subheader("Въведи оценка")
-
-student = st.selectbox("Избери ученик:", list(st.session_state.students.keys()))
-grade = st.selectbox("Избери оценка:", [2, 3, 4, 5, 6])
-
-if st.button("Запази оценката"):
-    st.session_state.students[student].append(grade)
-    st.success("Оценката е записана!")
+st.subheader("How old are you")
+st.text-input()
 
 st.divider()
 
