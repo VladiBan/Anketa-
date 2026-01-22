@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("📊 Ученици и оценки – класна анкета")
+st.title("Anketa for age")
 
 # Инициализация на данните
 if "students" not in st.session_state:
